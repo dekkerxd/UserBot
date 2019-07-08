@@ -415,7 +415,7 @@ async def killing (killed):
     if not killed.text[0].isalpha() and killed.text[0] not in ("/", "#", "@", "!"):
         if await killed.get_reply_message():
             await killed.edit(
-                "`Targeted User was Killed successfully 😈......`\n"
+                "`Targeted User was Killed successfully 😈`\n"
             )
 			  
 			  
